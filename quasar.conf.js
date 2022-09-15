@@ -68,6 +68,9 @@ module.exports = configure(function (/* ctx */) {
       chainWebpack (/* chain */) {
         //
       },
+      env: {
+        API: 'https://localhost:5001/v1'
+      }
     },
 
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-devServer

@@ -9,7 +9,7 @@
 
       <q-item-section>
         <q-item-label>{{ msg.name }}</q-item-label>
-        <q-item-label caption lines="1">{{ msg.msg }}</q-item-label>
+        <q-item-label caption lines="2">{{ msg.msg }}</q-item-label>
       </q-item-section>
 
       <q-item-section side>

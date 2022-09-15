@@ -58,7 +58,7 @@
               </q-item>
               <q-item class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <q-item-section>
-                  <q-input dark color="white" type="textarea" dense v-model="user_details.about" label="About"/>
+                  <q-input dark autogrow color="white" type="text" dense v-model="user_details.about" label="About"/>
                 </q-item-section>
               </q-item>
             </q-list>
@@ -68,27 +68,8 @@
           </q-card-actions>
         </q-card>
       </div>
+
       <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-
-        <q-card class="card-bg text-white">
-          <q-card-section class="text-center bg-transparent">
-            <q-avatar size="100px" class="shadow-10">
-              <img src="profile.svg">
-            </q-avatar>
-            <div class="text-subtitle2 q-mt-lg">by Pratik Patel</div>
-            <div class="text-h6 q-mt-md">Pratik Patel</div>
-          </q-card-section>
-          <q-card-section>
-            <div class="text-body2 text-justify">
-              My name is Pratik Patel (also known as @pratik227). I noticed myself pulling into programming since 2013,
-              and then determined myself to become a skilled and knowledgeable programmer. My passion for my programming
-              increases as I started working for Incentius (where I am currently working in).
-            </div>
-          </q-card-section>
-        </q-card>
-      </div>
-
-      <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
         <q-card class="card-bg text-white">
           <q-card-section class="text-h6 q-pa-sm">
             <div class="text-h6">Change Password</div>
@@ -136,6 +117,28 @@
 
         </q-card>
       </div>
+
+      <!-- <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+        <q-card class="card-bg text-white">
+          <q-card-section class="text-center bg-transparent">
+            <q-avatar size="100px" class="shadow-10">
+              <img src="profile.svg">
+            </q-avatar>
+            <div class="text-subtitle2 q-mt-lg">by Pratik Patel</div>
+            <div class="text-h6 q-mt-md">Pratik Patel</div>
+          </q-card-section>
+          <q-card-section>
+            <div class="text-body2 text-justify">
+              My name is Pratik Patel (also known as @pratik227). I noticed myself pulling into programming since 2013,
+              and then determined myself to become a skilled and knowledgeable programmer. My passion for my programming
+              increases as I started working for Incentius (where I am currently working in).
+            </div>
+          </q-card-section>
+        </q-card>
+      </div> -->
+
+      
     </div>
   </q-page>
 </template>

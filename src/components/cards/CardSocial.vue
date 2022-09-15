@@ -2,7 +2,7 @@
   <q-card class="bg-transparent no-shadow no-border">
     <q-card-section class="q-pa-none">
       <div class="row q-col-gutter-sm ">
-        <div v-for="(item, index) in items" :key="index" class="col-md-3 col-sm-12 col-xs-12">
+        <div v-for="(item, index) in items" :key="index" class="col-md-6 col-sm-12 col-xs-12">
           <q-item :style="`background-color: ${item.color1}`" class="q-pa-none">
             <q-item-section v-if="icon_position === 'left'" side :style="`background-color: ${item.color2}`"
                             class=" q-pa-lg q-mr-none text-white">
@@ -68,30 +68,30 @@ export default defineComponent({
         ]
         : [
           {
-            title: "Monthly Income",
+            title: "Renda Mensal (30 dias)",
             icon: "fas fa-dollar-sign",
-            value: "$ 20k",
+            value: "R$ 60k",
             color1: "#546bfa",
             color2: "#3e51b5"
           },
           {
-            title: "Weekly Sales",
-            icon: "fas fa-chart-bar",
-            value: "20",
+            title: "Renda Semanal (7 dias)",
+            icon: "fas fa-dollar-sign",
+            value: "R$ 15k",
             color1: "#3a9688",
             color2: "#3e51b5"
           },
           {
-            title: "New Customers",
-            icon: "fas fa-chart-line",
-            value: "321",
+            title: "Produto mais vendido (30 dias)",
+            icon: "fas fa-shopping-cart",
+            value: "5322 - Itaipava 600ml",
             color1: "#7cb342",
             color2: "#3e51b5"
           },
           {
-            title: "Active Users",
-            icon: "person",
-            value: "82",
+            title: "Produto mais vendido (7 dias)",
+            icon: "fas fa-shopping-cart",
+            value: "600 - Itaipava 600ml",
             color1: "#f88c2b",
             color2: "#3e51b5"
           }
